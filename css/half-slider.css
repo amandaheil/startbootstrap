@@ -5,6 +5,7 @@
  */
 
 .carousel-item {
+margin-top: 50px;
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
@@ -12,4 +13,76 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+    background-color: #c0e295
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+li {
+    float: left;
+    /* if using border: border-right: 1px solid #bbb; */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: #c0e295
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* If using borders
+li:last-child {
+    border-right: none;
+}
+*/
+.abt {
+    color: #1b3807;
+    text-align: center;
+}
+
+hr {
+    border-color: #1b3807; 
+}
+
+.textone {
+    color: #1b3807
+}
+
+h1{
+    color: #1b3807;
+    font-family: serif
+}
+h2{
+    color: #1b3807;
+    font-family: serif
+}
+p {
+    color:#1b3807;
+    font-family: serif
 }
